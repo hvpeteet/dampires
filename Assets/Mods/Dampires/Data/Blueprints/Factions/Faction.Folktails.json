@@ -1,0 +1,11 @@
+{
+  "FactionSpec": {
+    "DescriptionLocKey": "Faction.Dampires.Description",
+    "Needs#append": [
+      "BloodThirst",
+    ],
+    "Goods#append": [
+      "Blood",
+    ],
+  },
+}

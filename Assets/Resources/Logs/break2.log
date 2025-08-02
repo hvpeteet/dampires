@@ -1,0 +1,153 @@
+﻿Mono path[0] = 'D:/SteamLibrary/steamapps/common/Timberborn/Timberborn_Data/Managed'
+Mono config path = 'D:/SteamLibrary/steamapps/common/Timberborn/MonoBleedingEdge/etc'
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Initialize engine version: 6000.1.4f1 (03270eb687c6)
+[Subsystems] Discovering subsystems at path D:/SteamLibrary/steamapps/common/Timberborn/Timberborn_Data/UnitySubsystems
+kGfxThreadingModeSplitJobs is not supported on Direct3D 11. Reverting to kGfxThreadingModeClientWorkerJobs instead.
+GfxDevice: creating device client; kGfxThreadingModeClientWorkerJobs
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4070 (ID=0x2786)
+    Vendor:   NVIDIA
+    VRAM:     12012 MB
+    Driver:   32.0.15.7652
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.529 seconds
+- Finished resetting the current domain, in  0.002 seconds
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+ERROR: Shader Hidden/Universal Render Pipeline/DBufferClear shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+<RI> Initializing input.
+Using Windows.Gaming.Input
+<RI> Initialized touch support.
+UnloadTime: 0.469200 ms
+Starting game version 0.7.10.4-797c8f3-sw
+System info:
+  System: Windows 11  (10.0.26100) 64bit
+  CPU: 11th Gen Intel(R) Core(TM) i7-11700KF @ 3.60GHz
+  CPU manufacturer: GenuineIntel
+  CPU model: 11th Gen Intel(R) Core(TM) i7-11700KF @ 3.60GHz
+  CPU count: 16
+  CPU frequency: 3600
+  GPU: NVIDIA GeForce RTX 4070
+  GPU memory: 12012MB
+  RAM: 16221MB
+MachineId: 0679ba3e-13eb-4019-9ab9-5e7e99ab9e6a
+Successfully connected to the Steam client.
+RenderGraph is now enabled.
+Successfully connected to the Steam client.
+Modded: true, official
+- Dampires (v0.1)
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 8.151900 ms
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 5873.
+Total: 6.643300 ms (FindLiveObjects: 0.211300 ms CreateObjectMapping: 0.275600 ms MarkObjects: 6.089400 ms  DeleteObjects: 0.066500 ms)
+
+Successfully connected to the Steam client.
+Previous resolution: 2560 x 1440
+New resolution 2560 x 1440
+Display resolution: 2560 x 1440
+Full screen: True
+Graphics quality: High
+Resolution scale: 1
+Anti-aliasing: True
+VSync count: 1
+Frame rate limit: 
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 3.728300 ms
+Unloading 104 unused Assets to reduce memory usage. Loaded Objects now: 6929.
+Total: 14.355000 ms (FindLiveObjects: 0.218500 ms CreateObjectMapping: 0.176700 ms MarkObjects: 13.897200 ms  DeleteObjects: 0.062300 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 6929.
+Total: 13.712200 ms (FindLiveObjects: 0.227400 ms CreateObjectMapping: 0.197600 ms MarkObjects: 13.276100 ms  DeleteObjects: 0.010800 ms)
+
+Starting new game at 2025-07-31 22:18:01Z:
+FactionId: Folktails, MapFileReference: Name: Lakes, Path: , Resource: True, NewGameMode: StartingAdults: 8
+AdultAgeProgress: Min: 0.1, Max: 0.7
+StartingChildren: 4
+ChildAgeProgress: Min: 0.1, Max: 0.8
+FoodConsumption: 1
+WaterConsumption: 1
+StartingFood: 130
+StartingWater: 0
+TemperateWeatherDuration: Min: 13, Max: 17
+DroughtDuration: Min: 5, Max: 9
+DroughtDurationHandicapMultiplier: 0.38
+DroughtDurationHandicapCycles: 5
+CyclesBeforeRandomizingBadtide: 4
+ChanceForBadtide: 0.4
+BadtideDuration: Min: 4, Max: 8
+BadtideDurationHandicapMultiplier: 0.15
+BadtideDurationHandicapCycles: 5
+InjuryChance: 1
+DemolishableRecoveryRate: 0.75
+Failed to deserialize blueprint Good.Blood
+First uncaught exception at 2025-07-31 22:18:02Z
+Stopping all root objects in active scene
+Creating an exception game save
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+Failed to create an exception game save due to exception: System.ArgumentNullException: Value cannot be null.
+Parameter name: source
+  at System.Linq.Enumerable.Max[TSource] (System.Collections.Generic.IEnumerable`1[T] source) [0x0000d] in <31dd8ab76a134eafb76d53ee48c13f57>:0 
+  at Timberborn.WaterSystem.WaterMap.Save (Timberborn.WorldPersistence.ISingletonSaver singletonSaver) [0x00006] in <032efede4cfe464f892e60b51788a38c>:0 
+  at Timberborn.WorldPersistence.SerializedWorldFactory.SaveSingletons (Timberborn.WorldSerialization.SerializedWorld serializedWorld, System.Collections.Generic.IEnumerable`1[T] singletons) [0x00016] in <a129468f253c4c82a8a2e8818700ea8c>:0 
+  at Timberborn.WorldPersistence.SerializedWorldFactory.SaveSingletons (Timberborn.WorldSerialization.SerializedWorld serializedWorld) [0x0000d] in <a129468f253c4c82a8a2e8818700ea8c>:0 
+  at Timberborn.WorldPersistence.SerializedWorldFactory.Create () [0x00012] in <a129468f253c4c82a8a2e8818700ea8c>:0 
+  at Timberborn.WorldPersistence.WorldEntryWriter.WriteToSaveEntryStream (System.IO.Stream entryStream) [0x00000] in <a129468f253c4c82a8a2e8818700ea8c>:0 
+  at Timberborn.SaveSystem.SaveWriter.WriteToSaveStream (System.IO.Stream saveStream, System.Boolean leaveOpen) [0x00045] in <a250b721003d4ef6b62d8a5465b521f5>:0 
+  at Timberborn.GameSaveRuntimeSystem.GameSaver.SaveWithoutFinishingTick (System.IO.Stream stream) [0x00000] in <b52016ba46cf4d5d876504d442d8439d>:0 
+  at Timberborn.GameScene.GameSceneExceptionStateSaver.CreateExceptionSave () [0x00006] in <15915e93dcad4448b26d87912f501d42>:0 
+InvalidOperationException: Failed to load asset at Materials/Goods/Blood
+  at Timberborn.AssetSystem.AssetLoader.Load (System.String path, System.Type type) [0x00087] in <2fa3ff759c464dd187d2446ddf978522>:0 
+  at Timberborn.BlueprintSystem.UnityTypeDeserializer.TryDeserialize (Timberborn.SerializationSystem.SerializedObject serializedObject, System.String name, System.Type type, UnityEngine.Object& unityObject) [0x00030] in <9f0dcce8977d475bb453c988a1c85c10>:0 
+  at Timberborn.BlueprintSystem.BasicDeserializer.DeserializeSingle (Timberborn.SerializationSystem.SerializedObject serializedObject, System.Reflection.PropertyInfo serializedProperty) [0x0000e] in <9f0dcce8977d475bb453c988a1c85c10>:0 
+  at Timberborn.BlueprintSystem.BasicDeserializer.GetValue (Timberborn.SerializationSystem.SerializedObject serializedObject, System.Reflection.PropertyInfo serializedProperty) [0x0000d] in <9f0dcce8977d475bb453c988a1c85c10>:0 
+  at Timberborn.BlueprintSystem.BasicDeserializer.Deserialize (Timberborn.SerializationSystem.SerializedObject serializedObject, System.Type type) [0x0001c] in <9f0dcce8977d475bb453c988a1c85c10>:0 
+  at Timberborn.BlueprintSystem.BlueprintDeserializer.DeserializeSpec (System.String specProperty, Timberborn.SerializationSystem.SerializedObject serializedObject) [0x0000d] in <9f0dcce8977d475bb453c988a1c85c10>:0 
+  at Timberborn.BlueprintSystem.BlueprintDeserializer+<DeserializeSpecs>d__8.MoveNext () [0x00078] in <9f0dcce8977d475bb453c988a1c85c10>:0 
+  at Timberborn.BlueprintSystem.Blueprint.CopySpecs (System.Collections.Generic.IEnumerable`1[T] specsToCopy, Timberborn.BlueprintSystem.ComponentSpec specToIgnore, Timberborn.BlueprintSystem.ComponentSpec specToAdd) [0x00049] in <9f0dcce8977d475bb453c988a1c85c10>:0 
+  at Timberborn.BlueprintSystem.Blueprint..ctor (System.Collections.Generic.IEnumerable`1[T] specs, System.Collections.Generic.Dictionary`2[TKey,TValue] children) [0x00006] in <9f0dcce8977d475bb453c988a1c85c10>:0 
+  at Timberborn.BlueprintSystem.BlueprintDeserializer.Deserialize (Timberborn.SerializationSystem.SerializedObject serializedObject) [0x0000e] in <9f0dcce8977d475bb453c988a1c85c10>:0 
+  at Timberborn.BlueprintSystem.SpecService.DeserializeBlueprint (System.Linq.IGrouping`2[TKey,TElement] jsons) [0x00090] in <9f0dcce8977d475bb453c988a1c85c10>:0 
+  at Timberborn.BlueprintSystem.SpecService+<>c__DisplayClass8_0.<Load>b__0 () [0x00000] in <9f0dcce8977d475bb453c988a1c85c10>:0 
+  at System.Lazy`1[T].ViaFactory (System.Threading.LazyThreadSafetyMode mode) [0x00043] in <71119615d44348f087b10ce3c1671c84>:0 
+  at System.Lazy`1[T].ExecutionAndPublication (System.LazyHelper executionAndPublication, System.Boolean useDefaultConstructor) [0x00022] in <71119615d44348f087b10ce3c1671c84>:0 
+  at System.Lazy`1[T].CreateValue () [0x00074] in <71119615d44348f087b10ce3c1671c84>:0 
+  at System.Lazy`1[T].get_Value () [0x0000a] in <71119615d44348f087b10ce3c1671c84>:0 
+  at Timberborn.BlueprintSystem.SpecService+<GetSpecs>d__10`1[T].MoveNext () [0x0005c] in <9f0dcce8977d475bb453c988a1c85c10>:0 
+  at System.Collections.Generic.List`1[T].AddEnumerable (System.Collections.Generic.IEnumerable`1[T] enumerable) [0x00059] in <71119615d44348f087b10ce3c1671c84>:0 
+  at System.Collections.Generic.List`1[T]..ctor (System.Collections.Generic.IEnumerable`1[T] collection) [0x00062] in <71119615d44348f087b10ce3c1671c84>:0 
+  at System.Linq.Enumerable.ToList[TSource] (System.Collections.Generic.IEnumerable`1[T] source) [0x00018] in <31dd8ab76a134eafb76d53ee48c13f57>:0 
+  at Timberborn.GameGoods.GameGoodFilter.Load () [0x0000b] in <fcf85ea747c742b0babe5eb409c17d55>:0 
+  at Timberborn.SingletonSystem.SingletonLifecycleService.LoadSingletons () [0x00010] in <9117b1294fcf4df390fc07f3eef2285e>:0 
+  at Timberborn.SingletonSystem.SingletonLifecycleService.LoadAll () [0x0009a] in <9117b1294fcf4df390fc07f3eef2285e>:0 
+  at Timberborn.SingletonSystem.SingletonLifecycleUnityAdapter.Start () [0x00000] in <9117b1294fcf4df390fc07f3eef2285e>:0 
+
+Load time: 1648ms (scene index: 2)
+InvalidOperationException: This operation can only be called on the main thread.
+  at Timberborn.Multithreading.Parallelizer.ThrowIfNotMainThread () [0x0000d] in <57168b9550114d0fad7a5effd9b90db9>:0 
+  at Timberborn.Multithreading.Parallelizer.ThrowIfHasExceptions () [0x00000] in <57168b9550114d0fad7a5effd9b90db9>:0 
+  at Timberborn.Multithreading.Parallelizer.Unload () [0x00006] in <57168b9550114d0fad7a5effd9b90db9>:0 
+  at Timberborn.SingletonSystem.SingletonLifecycleService.UnloadSingletons () [0x00010] in <9117b1294fcf4df390fc07f3eef2285e>:0 
+  at Timberborn.SingletonSystem.SingletonLifecycleService.UnloadAll () [0x00000] in <9117b1294fcf4df390fc07f3eef2285e>:0 
+  at Timberborn.SingletonSystem.SingletonLifecycleUnityAdapter.OnDestroy () [0x00000] in <9117b1294fcf4df390fc07f3eef2285e>:0 
+
+UnloadTime: 2.642200 ms
+Creating an error report: C:\Users\hvpet\Documents\Timberborn\Error reports\error-report-2025-07-31-22h18m02s.zip
+Unloading 307 unused Assets to reduce memory usage. Loaded Objects now: 6911.
+Total: 21.148100 ms (FindLiveObjects: 0.257900 ms CreateObjectMapping: 0.223500 ms MarkObjects: 19.434100 ms  DeleteObjects: 1.232200 ms)
+
+Application focus lost at 2025-07-31 22:18:03Z
+Application focus gained at 2025-07-31 22:18:26Z
+[Physics::Module] Cleanup current backned.
+[Physics::Module] Id: 0xf2b8ea05
+Input System module state changed to: ShutdownInProgress.
+Input System polling thread exited.
+Input System module state changed to: Shutdown.

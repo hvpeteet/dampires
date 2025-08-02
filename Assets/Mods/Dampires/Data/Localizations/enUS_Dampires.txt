@@ -1,0 +1,9 @@
+﻿ID,Text,Comment
+Good.Blood.DisplayName,Blood,Resource name
+Good.Blood.PluralDisplayName,Blood,Resource name
+Status.Need.BloodThirst,Blood Starved.,This shows up on the entity panel when a beaver is extremely thirsty
+Need.BloodThirst.DeathMessage,died of blood starvation.,Preceded by beaver name
+Need.BloodThirst.DisplayName,Blood Thirst,A need satisfied by providing blood.
+Faction.Dampires.DisplayName,Dampires
+Faction.Dampires.Description,"A faction of folktails that welcomes all, even those others call the Dam-ed".
+

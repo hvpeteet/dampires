@@ -1,0 +1,134 @@
+﻿Mono path[0] = 'D:/SteamLibrary/steamapps/common/Timberborn/Timberborn_Data/Managed'
+Mono config path = 'D:/SteamLibrary/steamapps/common/Timberborn/MonoBleedingEdge/etc'
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Initialize engine version: 6000.1.4f1 (03270eb687c6)
+[Subsystems] Discovering subsystems at path D:/SteamLibrary/steamapps/common/Timberborn/Timberborn_Data/UnitySubsystems
+kGfxThreadingModeSplitJobs is not supported on Direct3D 11. Reverting to kGfxThreadingModeClientWorkerJobs instead.
+GfxDevice: creating device client; kGfxThreadingModeClientWorkerJobs
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4070 (ID=0x2786)
+    Vendor:   NVIDIA
+    VRAM:     12012 MB
+    Driver:   32.0.15.7652
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.542 seconds
+- Finished resetting the current domain, in  0.003 seconds
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+ERROR: Shader Hidden/Universal Render Pipeline/DBufferClear shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+<RI> Initializing input.
+Using Windows.Gaming.Input
+<RI> Initialized touch support.
+UnloadTime: 0.465200 ms
+Starting game version 0.7.10.4-797c8f3-sw
+System info:
+  System: Windows 11  (10.0.26100) 64bit
+  CPU: 11th Gen Intel(R) Core(TM) i7-11700KF @ 3.60GHz
+  CPU manufacturer: GenuineIntel
+  CPU model: 11th Gen Intel(R) Core(TM) i7-11700KF @ 3.60GHz
+  CPU count: 16
+  CPU frequency: 3600
+  GPU: NVIDIA GeForce RTX 4070
+  GPU memory: 12012MB
+  RAM: 16221MB
+MachineId: 0679ba3e-13eb-4019-9ab9-5e7e99ab9e6a
+Successfully connected to the Steam client.
+RenderGraph is now enabled.
+Successfully connected to the Steam client.
+Modded: true, official
+- Dampires (v0.1)
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 6.523000 ms
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 5877.
+Total: 5.808900 ms (FindLiveObjects: 0.209000 ms CreateObjectMapping: 0.175300 ms MarkObjects: 5.360600 ms  DeleteObjects: 0.063800 ms)
+
+Successfully connected to the Steam client.
+Previous resolution: 2560 x 1440
+New resolution 2560 x 1440
+Display resolution: 2560 x 1440
+Full screen: True
+Graphics quality: High
+Resolution scale: 1
+Anti-aliasing: True
+VSync count: 1
+Frame rate limit: 
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 3.496800 ms
+Unloading 104 unused Assets to reduce memory usage. Loaded Objects now: 6933.
+Total: 14.445300 ms (FindLiveObjects: 0.219000 ms CreateObjectMapping: 0.197500 ms MarkObjects: 13.974400 ms  DeleteObjects: 0.054000 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 6933.
+Total: 13.790500 ms (FindLiveObjects: 0.171600 ms CreateObjectMapping: 0.180300 ms MarkObjects: 13.428400 ms  DeleteObjects: 0.009700 ms)
+
+Starting new game at 2025-07-31 22:14:03Z:
+FactionId: Folktails, MapFileReference: Name: Lakes, Path: , Resource: True, NewGameMode: StartingAdults: 8
+AdultAgeProgress: Min: 0.1, Max: 0.7
+StartingChildren: 4
+ChildAgeProgress: Min: 0.1, Max: 0.8
+FoodConsumption: 1
+WaterConsumption: 1
+StartingFood: 130
+StartingWater: 0
+TemperateWeatherDuration: Min: 13, Max: 17
+DroughtDuration: Min: 5, Max: 9
+DroughtDurationHandicapMultiplier: 0.38
+DroughtDurationHandicapCycles: 5
+CyclesBeforeRandomizingBadtide: 4
+ChanceForBadtide: 0.4
+BadtideDuration: Min: 4, Max: 8
+BadtideDurationHandicapMultiplier: 0.15
+BadtideDurationHandicapCycles: 5
+InjuryChance: 1
+DemolishableRecoveryRate: 0.75
+First uncaught exception at 2025-07-31 22:14:04Z
+Stopping all root objects in active scene
+Creating an exception game save
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+Failed to create an exception game save due to exception: System.ArgumentNullException: Value cannot be null.
+Parameter name: source
+  at System.Linq.Enumerable.Max[TSource] (System.Collections.Generic.IEnumerable`1[T] source) [0x0000d] in <31dd8ab76a134eafb76d53ee48c13f57>:0 
+  at Timberborn.WaterSystem.WaterMap.Save (Timberborn.WorldPersistence.ISingletonSaver singletonSaver) [0x00006] in <032efede4cfe464f892e60b51788a38c>:0 
+  at Timberborn.WorldPersistence.SerializedWorldFactory.SaveSingletons (Timberborn.WorldSerialization.SerializedWorld serializedWorld, System.Collections.Generic.IEnumerable`1[T] singletons) [0x00016] in <a129468f253c4c82a8a2e8818700ea8c>:0 
+  at Timberborn.WorldPersistence.SerializedWorldFactory.SaveSingletons (Timberborn.WorldSerialization.SerializedWorld serializedWorld) [0x0000d] in <a129468f253c4c82a8a2e8818700ea8c>:0 
+  at Timberborn.WorldPersistence.SerializedWorldFactory.Create () [0x00012] in <a129468f253c4c82a8a2e8818700ea8c>:0 
+  at Timberborn.WorldPersistence.WorldEntryWriter.WriteToSaveEntryStream (System.IO.Stream entryStream) [0x00000] in <a129468f253c4c82a8a2e8818700ea8c>:0 
+  at Timberborn.SaveSystem.SaveWriter.WriteToSaveStream (System.IO.Stream saveStream, System.Boolean leaveOpen) [0x00045] in <a250b721003d4ef6b62d8a5465b521f5>:0 
+  at Timberborn.GameSaveRuntimeSystem.GameSaver.SaveWithoutFinishingTick (System.IO.Stream stream) [0x00000] in <b52016ba46cf4d5d876504d442d8439d>:0 
+  at Timberborn.GameScene.GameSceneExceptionStateSaver.CreateExceptionSave () [0x00006] in <15915e93dcad4448b26d87912f501d42>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at System.Collections.Immutable.ImmutableArray`1[T].ThrowNullRefIfNotInitialized () [0x00000] in <6bb08d37de124a778ca2954872cc5e3e>:0 
+  at System.Collections.Immutable.ImmutableArray`1[T].GetEnumerator () [0x00007] in <6bb08d37de124a778ca2954872cc5e3e>:0 
+  at Timberborn.Goods.GoodService.BindGoodToItsBackwardCompatibleIds (Timberborn.Goods.GoodSpec goodSpec) [0x00007] in <b389f3a087b54ee686fc73ab3f2077bc>:0 
+  at Timberborn.Goods.GoodService.LoadGoods () [0x0009a] in <b389f3a087b54ee686fc73ab3f2077bc>:0 
+  at Timberborn.Goods.GoodService.Load () [0x00000] in <b389f3a087b54ee686fc73ab3f2077bc>:0 
+  at Timberborn.SingletonSystem.SingletonLifecycleService.LoadSingletons () [0x00010] in <9117b1294fcf4df390fc07f3eef2285e>:0 
+  at Timberborn.SingletonSystem.SingletonLifecycleService.LoadAll () [0x0009a] in <9117b1294fcf4df390fc07f3eef2285e>:0 
+  at Timberborn.SingletonSystem.SingletonLifecycleUnityAdapter.Start () [0x00000] in <9117b1294fcf4df390fc07f3eef2285e>:0 
+
+Load time: 1921ms (scene index: 2)
+InvalidOperationException: This operation can only be called on the main thread.
+  at Timberborn.Multithreading.Parallelizer.ThrowIfNotMainThread () [0x0000d] in <57168b9550114d0fad7a5effd9b90db9>:0 
+  at Timberborn.Multithreading.Parallelizer.ThrowIfHasExceptions () [0x00000] in <57168b9550114d0fad7a5effd9b90db9>:0 
+  at Timberborn.Multithreading.Parallelizer.Unload () [0x00006] in <57168b9550114d0fad7a5effd9b90db9>:0 
+  at Timberborn.SingletonSystem.SingletonLifecycleService.UnloadSingletons () [0x00010] in <9117b1294fcf4df390fc07f3eef2285e>:0 
+  at Timberborn.SingletonSystem.SingletonLifecycleService.UnloadAll () [0x00000] in <9117b1294fcf4df390fc07f3eef2285e>:0 
+  at Timberborn.SingletonSystem.SingletonLifecycleUnityAdapter.OnDestroy () [0x00000] in <9117b1294fcf4df390fc07f3eef2285e>:0 
+
+UnloadTime: 3.094500 ms
+Creating an error report: C:\Users\hvpet\Documents\Timberborn\Error reports\error-report-2025-07-31-22h14m04s.zip
+Unloading 307 unused Assets to reduce memory usage. Loaded Objects now: 6915.
+Total: 23.606300 ms (FindLiveObjects: 0.255700 ms CreateObjectMapping: 0.232400 ms MarkObjects: 21.651700 ms  DeleteObjects: 1.466100 ms)
+
+[Physics::Module] Cleanup current backned.
+[Physics::Module] Id: 0xf2b8ea05
+Input System module state changed to: ShutdownInProgress.
+Input System polling thread exited.
+Input System module state changed to: Shutdown.

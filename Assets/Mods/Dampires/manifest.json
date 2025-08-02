@@ -1,0 +1,9 @@
+{
+  "Name": "Dampires",
+  "Version": "0.1",
+  "Id": "Timberborn.Mods.Dampires",
+  "MinimumGameVersion": "0.7.10.0",
+  "Description": "This group of folktails is led by an undying and powerful set of elites. Completely unrelated, some beavers seem to go missing every cycle.",
+  "RequiredMods": [
+  ]
+}

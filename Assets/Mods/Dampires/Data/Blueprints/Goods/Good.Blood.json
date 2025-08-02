@@ -1,0 +1,26 @@
+﻿{
+  "GoodSpec": {
+    "Id": "Blood",
+    "DisplayNameLocKey": "Good.Blood.DisplayName",
+    "PluralDisplayNameLocKey": "Good.Blood.PluralDisplayName",
+    "BackwardCompatibleIds": [],
+    "ConsumptionEffects": [
+      {
+        "NeedId": "BloodThirst",
+        "Points": 0.4
+      }
+    ],
+    "GoodType": "Liquid",
+    "StockpileVisualization": "Liquid",
+    "VisibleContainer": {
+      "Value": "Barrel"
+    },
+    "ContainerColor": "#1e5283",
+    "ContainerMaterial": "Materials/Goods/Blood",
+    "CarryingAnimation": "CarryInHands",
+    "Weight": 2,
+    "GoodGroupId": "Food",
+    "ForceImport": false,
+    "Icon": "Sprites/Goods/WaterIcon"
+  }
+}

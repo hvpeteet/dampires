@@ -1,0 +1,38 @@
+{
+  "NeedSpec": {
+    "Id": "BloodThirst",
+    "BackwardCompatibleIds": [],
+    "Order": 20,
+    "NeedGroupId": "BasicNeeds",
+    "CharacterType": "Beaver",
+    "DisplayNameLocKey": "Need.BloodThirst.DisplayName",
+    "StartingValue": 14.0,
+    "MinimumValue": 0.0,
+    "MaximumValue": 14.1,
+    "DailyDelta": -0.1,
+    "ImportanceMultiplier": 3.5,
+    "Effectiveness": 1.0,
+    "Wastable": false,
+    "FavorableWellbeing": 1,
+    "UnfavorableWellbeing": -10,
+    "HoursWarningThreshold": 0.0
+  },
+  "LethalNeedSpec": {
+    "DeathWarningLocKey": "Needs.Beaver.DeathWarning",
+    "DeathMessageLocKey": "Need.BloodThirst.DeathMessage"
+  },
+  "CriticalNeedSpec": {
+    "CriticalNeedType": "State",
+    "SpriteName": "Thirst",
+    "DescriptionLocKey": "Status.Need.BloodThirst",
+    "DescriptionShortLocKey": ""
+  },
+  "PunitiveNeedSpec": {
+    "Penalties": [
+      {
+        "Id": "MovementSpeed",
+        "MultiplierDelta": -0.25
+      }
+    ]
+  }
+}
