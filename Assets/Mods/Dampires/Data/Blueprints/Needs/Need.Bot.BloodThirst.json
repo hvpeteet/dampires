@@ -4,7 +4,7 @@
     "BackwardCompatibleIds": [],
     "Order": 20,
     "NeedGroupId": "BasicNeeds",
-    "CharacterType": "Beaver",
+    "CharacterType": "Bot",
     "DisplayNameLocKey": "Need.BloodThirst.DisplayName",
     "StartingValue": 14.0,
     "MinimumValue": 0.0,

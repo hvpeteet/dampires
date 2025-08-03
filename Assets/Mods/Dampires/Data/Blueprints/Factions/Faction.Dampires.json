@@ -77,7 +77,8 @@
       "Sleep",
       "SunflowerSeeds",
       "Thirst",
-      "WetFur"
+      "WetFur",
+      "BloodThirst"
     ],
     "Goods": [
       "Antidote",
@@ -118,7 +119,8 @@
       "TreatedPlank",
       "Water",
       "Wheat",
-      "WheatFlour"
+      "WheatFlour",
+      "Blood"
     ],
     "BlueprintModifiers": [],
     "StartingBuildingId": "DistrictCenter.Folktails",
