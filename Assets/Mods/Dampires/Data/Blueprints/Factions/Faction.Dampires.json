@@ -6,10 +6,10 @@
     "DescriptionLocKey": "Faction.Dampires.Description",
     "Avatar": "Sprites/Avatars/FolktailsAdult",
     "ChildAvatar": "Sprites/Avatars/FolktailsChild",
-    "BotAvatar": "Sprites/Avatars/FolktailsBot",
+    "BotAvatar": "Sprites/Avatars/Dampire",
     "ContaminatedAdultAvatar": "Sprites/Avatars/FolktailsContaminatedAdult",
     "ContaminatedChildAvatar": "Sprites/Avatars/FolktailsContaminatedChild",
-    "Logo": "Sprites/Avatars/FolktailsLogo",
+    "Logo": "Sprites/Avatars/DampiresLogo",
     "NewGameFullAvatar": "Sprites/Avatars/FolktailsFullNewGame",
     "Textures": [
       "Materials/Beavers/Folktails/Adult/BeaverAdult1.Folktails",
